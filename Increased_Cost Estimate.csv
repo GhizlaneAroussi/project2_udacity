@@ -1,0 +1,12 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,32.89,394.68,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),,Amazon EC2,0,2225.84,26710.08,USD,"Operating system (Linux), Quantity (10), Pricing strategy (On-Demand Instances 1 Year No Upfront), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Instance type (t3a.2xlarge)"
+My Estimate,US East (N. Virginia),,Amazon EC2,0,2225.84,26710.08,USD,"Operating system (Linux), Quantity (10), Pricing strategy (On-Demand Instances 1 Year No Upfront), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Instance type (t3a.2xlarge)"
+My Estimate,US East (N. Virginia),,Elastic Load Balancing,0,18.77,225.24,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),,Elastic Load Balancing,0,32.86,394.32,USD,"Number of Network Load Balancers (1), Average TCP connection duration (60 seconds), Average number of new TCP connections (3000 per second), Processed bytes per NLB for TCP (1 GB per hour)"
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,7124.44,85493.28,USD,"Quantity (1), Pricing strategy (On-Demand Instances 1 Year No Upfront), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (100 GB), Instance type (db.m6g.16xlarge)"
+
+I tried scaling up and out, but I don't reach 18K if I respect the initial architecture. Here I used 10 instances for web servers and application servers, and I used a different RDS instance.
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
